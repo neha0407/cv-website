@@ -1,4 +1,4 @@
-*
+
 body {
     background-color: aliceblue;
 }
@@ -18,8 +18,9 @@ img {
 
     clear: both;
     position: relative;
-    height: 200px;
+    height: 50px;
     background-color: whitesmoke;
+    margin-right: auto;
 }
 button {
     background-color: white;
@@ -29,7 +30,32 @@ button {
 .bottom{
     clear: both;
     position: relative;
-    height: 200px;
+    height: 50px;
     background-color: whitesmoke;
   
+}
+.footerlinks {
+    font-size: x-large;
+}
+.resumetop{
+    clear: both;
+    position: relative;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+
+table, td, th {
+    border: 1px solid black;
+  }
+table {
+    border-collapse: collapse;
+    width: 75%;
+}
+td {
+    height: 70px;
+    border-color: black;
+}
+tr {
+    height: 70px;
 }
