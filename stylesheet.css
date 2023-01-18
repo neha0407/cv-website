@@ -5,7 +5,15 @@ body {
 img {
     border-radius: 50%;
 }
-.indexhead
-{
-    img 
+.indexhead {
+ align-items: center;
+}
+.aboutme {
+    contain: ;
+    text-align: center;
+    color: black;
+    size: 0em;
+}
+.links {
+ ;
 }
