@@ -15,5 +15,21 @@ img {
     size: 0em;
 }
 .links {
- ;
+
+    clear: both;
+    position: relative;
+    height: 200px;
+    background-color: whitesmoke;
+}
+button {
+    background-color: white;
+    font-size: larger;
+    
+}
+.bottom{
+    clear: both;
+    position: relative;
+    height: 200px;
+    background-color: whitesmoke;
+  
 }
