@@ -1,4 +1,10 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
+}
 body {
     background-color: aliceblue;
 }
@@ -14,14 +20,7 @@ img {
     color: black;
     size: 0em;
 }
-.links {
 
-    clear: both;
-    position: relative;
-    height: 50px;
-    background-color: whitesmoke;
-    margin-right: auto;
-}
 button {
     background-color: white;
     font-size: larger;
@@ -58,4 +57,23 @@ td {
 }
 tr {
     height: 70px;
+}
+nav {
+    flex:1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+   margin-right: 20px;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
 }
